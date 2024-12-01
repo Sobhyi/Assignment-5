@@ -1,0 +1,268 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+background-color: rgb(183, 220, 207);
+}
+
+.h1{
+    margin-left: 10px;
+padding-top: 10px;
+}
+.content{
+margin-left: 25%;
+margin-top: 10%;
+width: 750px;
+background-color: #f5f5f5;
+display: flex;
+border-radius: 0px 10px 10px 0px;
+}
+.content .Lhs{
+    width: 50%;
+color: #283149;
+display: flex;
+flex-direction: column;
+}
+.content .label1{
+margin-left: 10px;
+margin-top: 20px;
+
+}
+.content .label2{
+margin-top: 20px;
+
+
+}
+
+.content .label2 .mort{
+    margin-left: 10px;
+    margin-right: 13px;
+   font-size: small;
+    }
+    .content .label2 .inte{
+        font-size: small;
+       
+    }
+.content .label2 .label3{ 
+    
+    margin-left: 10px;
+   
+  
+
+}
+.content .label2 .label3 .mort1{
+    margin-right: 10px;
+    width: 20%;
+   
+}
+.content .label2 .label3 .inte1{
+  
+    width: 20%;
+   
+}
+
+.content .label4 {
+  
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.content .label4 .radio{
+width: 50%;
+background-color: #00818a;
+padding: 10px;
+border: solid ;
+color: #e9e9ea;
+}
+.content .label4 .radio2{
+   width: 50%;
+    background-color: #00818a;
+    padding: 10px;
+    border: solid ;
+  color: #e9e9ea;
+    }
+.content .Button1{
+margin: 20px;
+
+}
+.content .Button1 .submit{
+width: 20%;
+}
+.content .Button1 .reset{
+    width: 20%; 
+    }
+.Rhs{
+
+width: 50%;
+height: auto;
+background-color: #404b69;
+border-radius: 0px 10px 10px 30px;
+}
+.Rhs .text {
+
+color: #f5f5f5;
+margin: 10px;
+text-align: center;
+}
+.Rhs .screen {
+margin: 10px;
+margin-top: 40px;
+padding-bottom: 20PX;
+height: auto;
+text-align: center;
+background-color: #283149;
+border-top:  #00818a;
+border-radius: 10px 10px 0px 0px;
+color: #f5f5f5;
+}
+.Rhs .screen .repayments{
+margin: 10px;
+padding-top: 30px;
+color: #f5f5f5;
+
+}
+.Rhs .screen .Total{
+    
+  margin-bottom: 50%;
+    
+    }
+.p{
+    color: #00818a;
+}
+@media(max-width:750px){
+
+    body{
+        background-color: rgb(183, 220, 207);
+        }
+        
+        .h1{
+            margin-left: 10px;
+        padding-top: 10px;
+        }
+        .content{
+        margin: 0px;
+        width: 100%;
+        height: 100%;
+       
+        background-color: #f5f5f5;
+        display: block;
+        
+        overflow-x: hidden;
+        text-align: center;
+        }
+        .content .Lhs{
+            width: 100%;
+            height: 100%;
+        color: #283149;
+        
+       
+        }
+        .content .label1{
+        margin-left: 10px;
+        margin-top: 20px;
+        
+        }
+        .content .label2{
+        margin-top: 20px;
+        
+        
+        }
+        
+        .content .label2 .mort{
+            margin-left: 10px;
+            margin-right: 13px;
+           font-size: small;
+            }
+            .content .label2 .inte{
+                font-size: small;
+               
+            }
+        .content .label2 .label3{ 
+            
+            margin-left: 10px;
+           
+          
+        
+        }
+        .content .label2 .label3 .mort1{
+            margin-right: 10px;
+            width: 20%;
+           
+        }
+        .content .label2 .label3 .inte1{
+          
+            width: 20%;
+           
+        }
+        
+        .content .label4 {
+          
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        .content .label4 .radio{
+        width: 50%;
+        margin-left: 85px;
+        background-color: #00818a;
+        padding: 10px;
+        border: solid ;
+        color: #e9e9ea;
+        }
+        .content .label4 .radio2{
+           width: 50%;
+           margin-left: 85px;
+            background-color: #00818a;
+            padding: 10px;
+            border: solid ;
+          color: #e9e9ea;
+            }
+        .content .Button1{
+        margin: 20px;
+        
+        }
+        .content .Button1 .submit{
+        width: 20%;
+        }
+        .content .Button1 .reset{
+            width: 20%; 
+            }
+        .Rhs{
+        
+        width: 100%;
+        height: 100%;
+        padding-bottom: 40%;
+        background-color: #404b69;
+        
+        }
+        .Rhs .text {
+        padding-top: 10%;
+        color: #f5f5f5;
+        margin: 20px;
+        text-align: center;
+        }
+        .Rhs .screen {
+        margin-top: 30%;
+        padding-bottom: 20PX;
+        height: 100%;
+        text-align: center;
+        background-color: #283149;
+        border-top:  #00818a;
+        border-radius: 10px 10px 0px 0px;
+        color: #f5f5f5;
+        }
+        .Rhs .screen .repayments{
+        margin: 10px;
+        padding-top: 30px;
+        color: #f5f5f5;
+        
+        }
+        .Rhs .screen .Total{
+            
+          margin-bottom: 50%;
+            
+            }
+        .p{
+            color: #00818a;
+        }
+}
